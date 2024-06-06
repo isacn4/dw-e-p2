@@ -865,6 +865,19 @@ body {
   column-gap: 10px;
   grid-row-gap: 10px;
 }
+
+.contenedorb {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 4, auto;
+  grid-template-areas: "telyemail telyemail" "nav nav" "filtros productos" "footer footer";
+  column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
 #telyemail {
   grid-area: telyemail;
 }
@@ -879,6 +892,13 @@ body {
 
 #productos {
   grid-area: productos;
+}
+#aside {
+  grid-area: aside;
+}
+
+#filtros {
+  grid-area: filtros;
 }
 #footer {
   grid-area: footer;
