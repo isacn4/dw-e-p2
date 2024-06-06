@@ -994,3 +994,426 @@ body {
 #footer {
   grid-area: footer;
 }
+/*--------diseño responsive--------*/
+/*--celular--*/
+@media only screen and (max-width: 450px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .contenedor {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6, auto;
+    grid-template-areas: "telyemail" "nav" "header" "productos" "aside" "footer";
+  }
+  .encabezado-contenedor {
+    margin: 4px 0px;
+    justify-content: center;
+    border: solid black 0.6px;
+  }
+  .encabezado-contenedor p {
+    font-size: 1rem;
+  }
+  .encabezado-contenedor div img {
+    width: 16px;
+    height: 16px;
+    margin: 0px 2px;
+  }
+  /*cel nav*/
+  .botonera {
+    width: 100%;
+    height: auto;
+  }
+  .botoneradiv-a {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .botoneradiv-a a img {
+    width: 140px;
+  }
+  .botonera .navdiv-b {
+    width: 40%;
+    height: 50px;
+  }
+  .botonera .navdiv-c {
+    width: 100%;
+    height: 50px;
+  }
+  .botoneradiv-b {
+    width: 100%;
+    height: auto;
+  }
+  .botoneradiv-b ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    margin-left: 4px;
+  }
+  .botoneradiv-b ul li {
+    margin-right: 4px;
+  }
+  .botoneradiv-b ul li a {
+    font-size: 1.2rem;
+  }
+  /*header foto cel*/
+  .header-foto {
+    margin: 4px 0px;
+  }
+  /*cel productos*/
+  /*productos destacados*/
+  .productosdestacados {
+    width: 100%;
+    margin: 4px 0px;
+    padding: 2px;
+  }
+  /*categorias*/
+  .categorias {
+    width: 100%;
+    height: 200px;
+    margin: 2px 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .categoriasdiv-a {
+    width: 45%;
+    height: 45%;
+  }
+  .categoriasdiv-b {
+    width: 60px;
+    height: 60px;
+  }
+  /*banner*/
+  .productosdestacados-contenedor {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  .bannerdiv-a {
+    width: 100%;
+    height: 45%;
+  }
+  .bannerdiv-c {
+    width: 60%;
+  }
+  .bannerdiv-c p .texto-a {
+    font-size: 1rem;
+  }
+  .bannerdiv-c p .texto-b {
+    font-size: 1rem;
+  }
+  /*ofertas*/
+  .ofertas-contenedor {
+    width: 100%;
+    height: auto;
+  }
+  .ofertas-a {
+    width: 100%;
+    height: 40px;
+  }
+  .ofertas-b {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ofertasdiv-a {
+    width: 32%;
+    height: 22%;
+    margin: 2px 0px;
+  }
+  .div-ofertab {
+    width: 30%;
+    height: 60px;
+    border: solid grey 0.6px;
+  }
+  /*servicios*/
+  .servicios-contenedor {
+    width: 100%;
+    height: 260px;
+  }
+  .servicios-a {
+    width: 100%;
+    height: 20px;
+  }
+  .servicios-b {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .serviciosdiv-a {
+    width: 100%;
+    height: 45%;
+  }
+  .pie-contenedor {
+    width: 100%;
+    height: auto;
+  }
+  .piediv-a {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  .suscribite-div {
+    width: 100%;
+    height: 25%;
+  }
+  .suscribite-div p {
+    font-size: 1rem;
+    margin: 0px 2px;
+  }
+  .suscribite-div input {
+    width: 100px;
+    height: 20px;
+    margin: 0px 2px;
+  }
+  .atencion-div {
+    width: 100%;
+    height: 50%;
+  }
+  .atenciondiv-a {
+    width: 80%;
+    height: 80%;
+  }
+  .atenciondiv-a p {
+    font-size: 1rem;
+  }
+  .redsocial-div {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+  }
+  .redsocialdiv-a {
+    width: 40%;
+    height: 100%;
+  }
+  .redsocial-div p {
+    font-size: 1rem;
+  }
+  .redsocialdiv-b {
+    width: 40%;
+    height: 100%;
+  }
+  .redsocialdiv-b img {
+    width: 30px;
+    height: 30px;
+  }
+  .piediv-b {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .pie-texto {
+    width: 40%;
+    height: 40%;
+    padding: 4px 0px;
+    display: flex;
+    align-items: center;
+  }
+  .pie-texto p {
+    font-size: 1.2rem;
+    line-height: 4px;
+  }
+  .piediv-c {
+    width: 100%;
+    height: 60px;
+  }
+  .copyright-div {
+    width: 80%;
+  }
+  /*footer*/
+  .pie {
+    width: 80%;
+    height: 80px;
+    padding: 6px;
+    margin: 6px 2px;
+  }
+  .pie__titulo--md {
+    font-size: 1.2rem;
+  }
+  .pie__icon--sm {
+    width: 10%;
+    margin: 8px;
+    justify-content: space-around;
+  }
+  .contenedorb {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5, auto;
+    grid-template-areas: "telyemail" "nav" "filtros" "productos" "footer";
+  }
+  .filtros-contenedor {
+    width: 100%;
+    padding: 6px 2px;
+    font-size: 1.2rem;
+  }
+  .filtros-div {
+    width: 80%;
+    margin: 6px 2px;
+  }
+  .filtrosdiv-a {
+    width: 100%;
+    height: 40px;
+  }
+  .filtrosdiv-b {
+    width: 100%;
+    height: 80px;
+  }
+  .filtrosdiv-d {
+    width: 100%;
+  }
+  .filtrosdivd-a {
+    width: 100%;
+    height: 40px;
+  }
+  .filtrosdivd-a p {
+    font-size: 1.2rem;
+  }
+  .filtrosdivd-b {
+    width: 100%;
+    height: 40px;
+  }
+  .filtrosdivd-c {
+    width: 100%;
+    height: 40px;
+  }
+  .filtrosdivd-d {
+    width: 100%;
+    height: 40px;
+  }
+  .filtrosdivd-ab {
+    width: 40%;
+    height: 100%;
+  }
+  .filtrosdivd-ab label {
+    font-size: 1rem;
+  }
+  .main-contenedor {
+    width: 100%;
+    padding: 2px;
+  }
+  .main-filtro {
+    width: 100%;
+    height: 40px;
+  }
+  .main-filtro p {
+    font-size: 1rem;
+    margin: 0px 2px;
+  }
+  .main-filtro select {
+    width: 40%;
+    height: 20px;
+    margin: 0px 2px;
+  }
+  .maindiv-a {
+    width: 90%;
+    height: 90%;
+  }
+  .maindiv-b {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content: center;
+    align-items: center;
+  }
+  .maindiv-c {
+    width: 40%;
+    height: 100%;
+    margin: 2px;
+  }
+  .main-texto {
+    font-size: 1.6rem;
+    margin: 2px 0px;
+  }
+  .maindiv-c figcaption {
+    color: forestgreen;
+    margin: 2px 0px;
+    font-size: 1.2rem;
+  }
+  .maindiv-c p {
+    margin: 2px 0px;
+    font-size: 1.2rem;
+  }
+  .div-heladera {
+    width: 100%;
+    height: 160px;
+    border: solid 0.6px grey;
+  }
+  .contenedorc {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4, auto;
+    grid-template-areas: "telyemail" "nav" "formulario" "footer";
+  }
+  .bgClaro {
+    width: 80%;
+    margin: 6px 2px;
+    display: flex;
+    flex-direction: column;
+    border: solid black 0.6px;
+  }
+  .contacto {
+    width: 80%;
+    background-color: white;
+    padding: 2px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    border: solid grey 0.6px;
+  }
+  .formularioa {
+    width: 100%;
+    margin: 6px 2px;
+    display: flex;
+    flex-direction: column;
+  }
+  .formulariodiv-a {
+    width: 90%;
+    border: solid 1px black;
+    margin: 6px 2px;
+    display: flex;
+    flex-direction: column;
+  }
+  .formulariodiv-b {
+    width: 60%;
+    margin: 6px 2px;
+    display: flex;
+    flex-direction: column;
+  }
+  .formulario-texto {
+    margin: 6px 2px;
+    font-size: 1rem;
+  }
+  .formulario-boton {
+    width: 60%;
+    margin: 2px 0px;
+  }
+}
