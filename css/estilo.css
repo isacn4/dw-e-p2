@@ -74,7 +74,8 @@ body {
 
 .botoneradiv-a {
   width: 100%;
-  background-color: #7BB3FF;
+ /*background-color: #7BB3FF;*/
+  background-color: beige;
   color: white;
   border: solid grey 0.6px;
   padding: 2px;
