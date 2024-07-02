@@ -734,8 +734,8 @@ h2 {
 }
 
 .formulario-titulo {
-  font-size: 1.6rem;
-  margin: 6px 6px;
+  font-size: 1.2rem;
+  margin: 6px 2px;
 }
 
 .formulario-titulo::first-letter {
@@ -791,9 +791,39 @@ h2 {
   /*border: solid grey 0.6px;*/
 }
 
-.mapa {
+/*.mapa {
   width: 40%;
+}*/
+.contenedor-sucursales{
+  /*width: 90%;*/
+  margin: 6px 0px;
+  border: solid 0.6px grey;
+  background-color: white;
+  padding: 6px;
 }
+.div-b-sucursal{
+  margin: 4px;
+}
+
+.div-c-sucursal{
+  margin: 4px;
+}
+.formulariodiv-a {
+    width: 80%;
+    border: solid 0.6px grey;
+    margin: 6px 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+  }
+  .bgClaro {
+    /*width: 80%;*/
+    margin: 6px 2px;
+    display: flex;
+    flex-direction: column;
+    border: solid black 0.6px;
+  }
+
 
 /*pie*/
 .pie-contenedor {
@@ -1449,6 +1479,9 @@ h2 {
     grid-template-columns: 1fr;
     grid-template-rows: 4, auto;
     grid-template-areas: "telyemail" "nav" "formulario" "footer";
+  }
+  .div-a-pedido{
+    width: 50%;
   }
   .bgClaro {
     /*width: 90%;*/
