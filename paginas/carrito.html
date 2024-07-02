@@ -10,7 +10,7 @@
 </head>
 <body>
 	<!--grid-->
-    <div class="contenedorb">
+    <div class="contenedor-b">
 
     <!--tel y email-->
     <div class="encabezado-contenedor" id="telyemail">
@@ -93,144 +93,41 @@
 		</div>
 	</nav>
 
-    <!--filtros-->
-    <div class="filtros-contenedor" id="filtros">
-		<p>	inicio/promociones</p>
+    <!--contenido principal-->	
+	<main>
+		<section>
+			<div class="contenedor-carro">
 
-	<div class="filtros-div">
-
-		<div class="filtrosdiv-a">
-			<h2 class="filtros-texto">Filtros</h2>
-		</div>
-
-		<div class="filtrosdiv-b">
-			<p class="filtros-titulo">Categoria</p>
-			<p class="filtrostexto-a">televsiones(1)</p>
-			<p class="filtrostexto-a">heladeras(1)</p>
-			<p class="filtrostexto-a">celulares(1)</p>
-			<p class="filtrostexto-a">notebooks(1)</p>
-		</div>
-
-		<div class="filtrosdiv-c">
-
-			<div class="filtrosdivc-titulo">	
-				<p class="filtros-titulo">Marca</p>
-			</div>
-
-			<div class="filtrosdivc-texto">
-				<label for="tvs" class="formulario-texto">bgh</label>
-				<input type="checkbox" id="tvs" value="quiere tvs">
-			</div>
-
-			<div class="filtrosdivc-texto">
-				<label for="celulares"  class="formulario-texto">lg</label>
-				<input type="checkbox" id="celulares" value="quiere celulares">
-			</div>
-
-			<div class="filtrosdivc-texto">
-				<label for="notebooks"  class="formulario-texto">gafa</label>
-				<input type="checkbox" id="notebooks" value="quiere notebooks">
-			</div>
-
-			<div class="filtrosdivc-texto">
-				<label for="notebooks"  class="formulario-texto">patrick</label>
-				<input type="checkbox" id="notebooks" value="quiere notebooks">
-			</div>
-
-		</div>
-
-
-		<div class="filtrosdiv-d">
-
-			<div class="filtrosdivd-a">
-				<p>Precio</p>	
-			</div>
-
-			<div class="filtrosdivd-b">
-				<p>$0</p>
-				<p>$1000</p>
-			</div>
-
-			<div class="filtrosdivd-c">
-				<img src="../imagenes/lineac.png" alt="">
-			</div>
-
-			<div class="filtrosdivd-d">
-				<div class="filtrosdivd-ab">	
-					<label for="name" class="novedades-texto" >desde</label>
-					<input type="text" id="name">
+				<div class="div-a-carro">
+					<div class="div-a-pedido">
+						<h1>Tu pedido</h1>
+						<p>No hay productos en tu carro</p>
+					</div>
+					<div class="div-a-pedido">
+						<input type="submit" value="Iniciar compra" class="formulario-boton">
+					</div>
 				</div>
 
-				<div class="filtrosdivd-ab">
-					<label for="name" class="novedades-texto" >hasta</label>
-					<input type="text" id="name">
+				<div class="div-b-carro">
+					<p>subtotal: 0,00$</p>
+					<div class="div-background">
+					<p>total: 0,00$</p>
+					</div>
 				</div>
 
-		    </div>
-
-	   	</div>
-
-	</div>
-
-	</div>
-
-	<!--contenido principal-->
-	<main id="productos">
-		<section class="main-contenedor">
-			
-			<h1 class="main-texto">Promociones</h1>
-		
-		<div class="main-filtro">
-		<p>ordenar por:</p>
-
-		<select name="" id="">
-			<option value="rio grande">menor precio</option>
-			<option value="tolhuin">mayor precio</option>
-            <option value="ushuaia">alfabeticamente a-z</option>
-            <option value="otra provincia">mas relevantes</option>
-        </select>
-
-		</div>
-
-		 <!--tv-->
-        	<div class="maindiv-a">
-			<h2 class="novedades-texto">Productos</h2>
-
-				<div class="maindiv-b">
-
-				    <figure class="maindiv-c">
-				    
-				    <img src="../imagenes/tvledlg.jpeg" alt="promocion tv lg" class="producto-imagen">
-				    <figcaption>Television</figcaption>
-				    <p>Lg a</p>
-				    <p class="price">$1000</p>
-
-				    </figure>
-
-				    <figure class="maindiv-c">
-				    <img src="../imagenes/heladeragafa.jpeg" alt="promocion heladera gafa" class="div-productob">
-				    <figcaption>Heladera</figcaption>
-				    <p>Gafa a</p>
-				    <p class="price">$1000</p>
-				    </figure>
-
-				    <figure class="maindiv-c">
-				    <img src="../imagenes/celxiaomi.jpeg" alt="promocion celular xiaomi" class="div-productob">
-				    <figcaption>Celular</figcaption>
-				    <p>Xiaomi a</p>
-				    <p class="price">$1000</p>
-				    </figure>
-
-				    <figure class="maindiv-c">
-				    <img src="../imagenes/notebookbgh.jpeg" alt="promocion notebook bgh" class="div-productob">
-				    <figcaption>Notebook</figcaption>
-				    <p>Bgh a</p>
-				    <p class="price">$1000</p>
-				    </figure>
+				<div>
+					<p><strong>Verificacion de disponibilidad</strong></p>
+					<p>Tené en cuenta que para procesar tu compra debemos corroborar la disponibilidad de los productos de acuerdo a tu ubicación</p>
+				<div>
+					<p><strong>Importante</strong></p>
+					<p>Recorda que el "Producto "solo puede ser retirado por el "titular de la tarjeta", con la que se efectuó la compra acompañado con su "DNI"</p>
 				</div>
-		    </div>
+			</div>
+			</div>
 		</section>
 	</main>
+
+	
 <!--footer-->
 	<footer id="footer">
 		<div class="pie-contenedor">

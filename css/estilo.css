@@ -16,6 +16,19 @@ html {
 body {
   background-color: #EBEBEB;
 }
+/*letra*/
+h1 {
+  color: black;
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+h2 {
+  color: black;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
 /*encabezado*/
 .encabezado-contenedor {
   width: 100%;
@@ -708,6 +721,7 @@ body {
   border: solid grey 0.6px;
 }
 
+
 /*formulario*/
 .formulariodiv-a {
   margin: 10px 2px;
@@ -1005,6 +1019,57 @@ body {
 }
 #footer {
   grid-area: footer;
+}
+.contenedor-micuenta{
+  margin: 6px 0px;
+  border: solid grey 0.4px;
+  background-color: white;
+  padding: 6px;
+  }
+  .div-a-micuenta{
+    display: flex;
+    flex-direction: row;
+  }
+  .div-ingreso-a{
+    width: 20%;
+    margin: 4px;
+  }
+.div-ingreso-b{
+  width: 40%;
+  margin: 6px 0px;
+}
+.div-b-cuenta{
+  display: flex;
+  flex-direction: column;
+}
+.div-c-cuenta{
+  display: flex;
+  flex-direction: row;
+}
+.contenedor-carro{
+  /*width: 90%;*/
+  margin: 6px 0px;
+  border: solid 0.6px grey;
+  background-color: white;
+  padding: 6px;
+}
+.div-a-carro{
+  display: flex;
+  flex-direction: row;
+}
+.div-a-pedido{
+  margin: 4px;
+  width: 20%;
+}
+.div-a-carro p{
+  margin: 4px 0px;
+}
+.div-b-carro{
+  margin: 4px;
+  width: 20%;
+}
+.div-background{
+  background-color: #EBEBEB;
 }
 /*--------diseño responsive--------*/
 /*--celular--*/
