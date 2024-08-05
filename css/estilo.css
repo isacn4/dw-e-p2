@@ -1,34 +1,18 @@
-/*@charset "UTF-8";*/
-/*letra*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quicksand:wght@300&display=swap");
-/*reset*/
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-}
+/* Error: expected "}".
+ *     ,
+ * 141 | }
+ *     |  ^
+ *     '
+ *   scss\layout\_filtros.scss 141:2  @import
+ *   scss\estilo.scss 8:9             root stylesheet */
 
-html {
-  font-size: 62.5%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "}".\a     \2577 \a 141 \2502  }\d\a     \2502   ^\a     \2575 \a   scss\\layout\\_filtros.scss 141:2  @import\a   scss\\estilo.scss 8:9             root stylesheet';
 }
-
-body {
-  background-color: #EBEBEB;
-}
-
-/*letra*/
-h1 {
-  color: black;
-  font-size: 1.6rem;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-}
-
-h2 {
-  color: black;
-  font-size: 1.2rem;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 200;
-}
-
-/*# sourceMappingURL=estilo.css.map */
