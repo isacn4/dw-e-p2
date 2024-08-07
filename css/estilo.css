@@ -1,18 +1,677 @@
-/* Error: expected "}".
- *     ,
- * 141 | }
- *     |  ^
- *     '
- *   scss\layout\_filtros.scss 141:2  @import
- *   scss\estilo.scss 8:9             root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a     \2577 \a 141 \2502  }\d\a     \2502   ^\a     \2575 \a   scss\\layout\\_filtros.scss 141:2  @import\a   scss\\estilo.scss 8:9             root stylesheet';
+@charset "UTF-8";
+/*background color*/
+/*letra tamaño*/
+/*letra color*/
+/*borde*/
+/*@charset "UTF-8";*/
+/*letra*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quicksand:wght@300&display=swap");
+/*reset*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #EBEBEB;
+}
+
+/*letra*/
+h1 {
+  color: black;
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  color: black;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+
+/*encabezado*/
+.encabezado-contenedor {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  padding: 2px;
+  margin: 6px 0px;
+  border: solid grey 0.6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.encabezado-contenedor .headerdiv-a {
+  /*border: solid grey 0.6px;*/
+}
+
+.encabezado-contenedor div p {
+  font-size: 1.2rem;
+  margin: 0px 2px;
+}
+
+.encabezado-contenedor .headerdiv-b {
+  /*border: solid grey 0.6px;*/
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+}
+
+.encabezado-contenedor .headerdiv-c {
+  margin: 0px 6px;
+  /*border: solid grey 0.6px;*/
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+}
+
+.encabezado-contenedor div img {
+  width: 20px;
+  height: 20px;
+  margin: 0px 2px;
+}
+
+/*filtros*/
+.filtros-contenedor {
+  width: 90%;
+  color: black;
+  padding: 10px 2px;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  /*border: $borde-b;*/
+  display: flex;
+  flex-direction: column;
+  margin: 10px 2px;
+  align-items: center;
+}
+
+.filtros-div {
+  width: 80%;
+  background-color: white;
+  margin: 20px 0px;
+  border: solid grey 0.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filtrosdiv-a {
+  width: 100%;
+  height: 40px;
+  border-bottom: solid grey 0.6px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.filtrosdiv-b {
+  width: 100%;
+  height: 120px;
+  border-bottom: solid grey 0.6px;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  justify-content: center;
+}
+
+.filtros-titulo {
+  font-size: 1.6rem;
+  border-bottom: solid grey 0.6px;
+}
+
+.filtrostexto-a {
+  font-size: 1.2rem;
+  margin: 2px 0px;
+}
+
+.filtrosdiv-c {
+  width: 100%;
+  height: 200px;
+  border-bottom: solid grey 0.6px;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+}
+
+.filtrosdivc-titulo {
+  width: 100%;
+  height: 20px;
+  margin: 4px 0px;
+}
+
+.filtrosdivc-texto {
+  width: 100%;
+  height: 40px;
+  margin: 2px 0px;
+  /*border: solid grey 0.6px;*/
+  display: flex;
+  flex-direction: row;
+}
+
+.filtrosdiv-d {
+  width: 100%;
+  /*border: solid grey 0.6px;*/
+  padding: 2px;
+}
+
+.filtrosdivd-a {
+  width: 100%;
+  height: 50px;
+  border-bottom: solid grey 0.6px;
+  padding: 2px;
+  align-items: center;
+}
+
+.filtrosdivd-a p {
+  font-size: 1.6rem;
+}
+
+.filtrosdivd-b {
+  width: 100%;
+  height: 50px;
+  /*border: solid grey 0.6px;*/
+  padding: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.filtrosdivd-c {
+  width: 100%;
+  height: 50px;
+  /*border: solid grey 0.6px;*/
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filtrosdivd-d {
+  width: 100%;
+  height: 50px;
+  /*border: solid grey 0.6px;*/
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.filtrosdivd-ab {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*border: solid grey 0.6px;*/
+}
+
+.filtrosdivd-ab label {
+  font-size: 1.2rem;
+}
+
+.filtrosdivd-ab input {
+  width: 60px;
+}
+
+/*paginas contenido principal*/
+.main-contenedor {
+  width: 100%;
+  padding: 10px;
+  border: solid grey 0.6px;
+  margin: 10px 2px;
+  background-color: white;
+}
+
+.main-filtro {
+  width: 100%;
+  height: 50px;
+  margin: 2px 0px;
+  border-bottom: solid grey 0.6px;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-filtro p {
+  font-size: 1.2rem;
+  margin: 0px 2px;
+}
+
+.main-filtro select {
+  width: 15%;
+  height: 20px;
+  margin: 0px 2px;
+}
+
+.maindiv-a {
+  width: 90%;
+  height: 90%;
+  margin: 6px 0px;
+  /*border: $borde-b;*/
+  padding: 10px;
+}
+
+.maindiv-b {
+  width: 90%;
+  height: 90%;
+  margin: 10px;
+  /*border: solid grey 0.6px;*/
+  padding: 10px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.maindiv-c {
+  width: 20%;
+  height: 100%;
+  border: solid grey 0.6px;
+  box-shadow: 10px;
+  margin: 0px 10px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-texto {
+  font-size: 1.6rem;
+  margin: 2px 0px;
+  border-bottom: solid grey 0.6px;
+}
+
+.maindiv-c figcaption {
+  color: forestgreen;
+  margin: 2px 0px;
+  font-size: 1.2rem;
+}
+
+.maindiv-c p {
+  margin: 2px 0px;
+  font-size: 1.2rem;
+}
+
+.producto-imagen {
+  object-fit: cover;
+  width: 100%;
+  height: 160px;
+  border: solid grey 0.6px;
+}
+
+.div-productob {
+  width: 100%;
+  height: 160px;
+  border: solid grey 0.6px;
+}
+
+/*aside*/
+/*aside*/
+.aside-contenedor {
+  width: 94%;
+  height: 94%;
+  margin: 10px 2px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.asidediv-a {
+  width: 60%;
+  margin: 20px 0px;
+  /*border: solid black 1px;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.asidediv-b {
+  margin: 20px 10px;
+}
+.asidediv-b img {
+  width: 20px;
+  height: 20px;
+  margin: 6px 0px;
+}
+.asidediv-b img:hover {
+  transform: scale(2);
+}
+.asidediv-b p {
+  font-size: 1rem;
+  margin: 2px 0px;
+}
+.asidediv-b:hover {
+  color: lightgrey;
+}
+
+/*formulario*/
+.formulariodiv-a {
+  margin: 10px 2px;
+}
+
+.formulariodiv-b {
+  margin: 6px 2px;
+  display: flex;
+  flex-direction: row;
+}
+
+.formulario-titulo {
+  font-size: 1.2rem;
+  margin: 6px 2px;
+}
+
+.formulario-titulo::first-letter {
+  /*font-size: $letratamaño-a;
+  color: palegreen;*/
+}
+
+.formulario-texto {
+  margin: 6px 2px;
+}
+
+.novedades.titulo {
+  border-bottom: solid grey 0.6px;
+}
+
+.formulariodiva-a {
+  margin: 6px 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.formulariodiva-a input {
+  margin: 2px;
+  height: 15px;
+}
+
+.bgClaro {
+  background-color: white;
+  border: solid grey 1px;
+  margin: 10px 2px;
+  padding: 10px;
+}
+
+.contacto {
+  width: 90%;
+  background-color: white;
+  /*border: solid grey 0.6px;*/
+  padding: 2px;
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contacto-a {
+  width: 40%;
+  background-color: white;
+  padding: 2px;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  /*border: solid grey 0.6px;*/
+}
+
+/*.mapa {
+  width: 40%;
+}*/
+/*pie*/
+.pie-contenedor {
+  width: 100%;
+  height: 400px;
+  padding: 2px;
+  margin: 10px 0px;
+  /*border: $borde-b;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.piediv-a {
+  width: 100%;
+  height: 30%;
+  background-color: white;
+  margin: 2px 0px;
+  border: solid grey 0.6px;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+}
+
+.suscribite-div {
+  width: 30%;
+  height: 100%;
+  margin: 2px;
+  border: solid grey 0.6px;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.suscribite-div p {
+  font-size: 1.2rem;
+  margin: 0px 2px;
+}
+
+.suscribite-div input {
+  width: 100px;
+  height: 20px;
+  margin: 0px 2px;
+}
+
+.atencion-div {
+  width: 40%;
+  height: 100%;
+  margin: 2px;
+  border: solid grey 0.6px;
+  padding: 2px;
+  display: flex;
+  /*flex-direction: column;*/
+  align-items: center;
+  justify-content: center;
+}
+
+.atenciondiv-a {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.atenciondiv-a p {
+  font-size: 1.2rem;
+}
+
+.redsocial-div {
+  width: 30%;
+  height: 100%;
+  margin: 2px;
+  border: solid grey 0.6px;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.redsocialdiv-a {
+  width: 60%;
+  /*border: $borde-b;*/
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.redsocial-div p {
+  font-size: 1.2rem;
+}
+
+.redsocialdiv-b {
+  width: 60%;
+  /*border: $borde-b;*/
+  display: flex;
+  align-items: center;
+}
+
+.redsocialdiv-b img {
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+}
+
+.piediv-b {
+  width: 100%;
+  height: 40%;
+  background-color: #EBEBEB;
+  margin: 2px 0px;
+  border: solid grey 0.6px;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-texto {
+  width: 20%;
+  height: 90%;
+  margin: 2px 6px;
+  /*border: $borde-b;*/
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pie-texto p {
+  font-size: 1.2rem;
+}
+
+.piediv-c {
+  width: 100%;
+  height: 30%;
+  background-color: white;
+  border: solid grey 0.6px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.copyright-div {
+  width: 60%;
+  /*border: $borde-b;*/
+  padding: 2px;
+  display: flex;
+  align-content: center;
+}
+
+.copyright-div p {
+  font-size: 1.2rem;
+}
+
+/*grid*/
+.contenedor {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: 5, auto;
+  grid-template-areas: "telyemail telyemail" "nav nav" "header header" "productos productos" "footer footer";
+  column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.contenedorb {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 4, auto;
+  grid-template-areas: "telyemail telyemail" "nav nav" "filtros productos" "footer footer";
+  column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.contenedor-c {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 4, auto;
+  grid-template-areas: "telyemail" "nav" "mainc" "footer";
+  /*column-gap: 10px;*/
+  grid-row-gap: 10px;
+}
+
+#telyemail {
+  grid-area: telyemail;
+}
+
+#nav {
+  grid-area: nav;
+}
+
+#header {
+  grid-area: header;
+}
+
+#productos {
+  grid-area: productos;
+}
+
+#aside {
+  grid-area: aside;
+}
+
+#filtros {
+  grid-area: filtros;
+}
+
+#formulario {
+  grid-area: formulario;
+}
+
+#contenidoprincipal-c-pag {
+  grid-area: mainc;
+}
+
+#mapa {
+  grid-area: mapa;
+}
+
+#footer {
+  grid-area: footer;
+}
+
+.contenedor-micuenta {
+  margin: 6px 0px;
+  border: solid grey 0.4px;
+  background-color: white;
+  padding: 6px;
+}
+
+.contenedor-carro {
+  /*width: 90%;*/
+  margin: 6px 0px;
+  border: solid 0.6px grey;
+  background-color: white;
+  padding: 6px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
