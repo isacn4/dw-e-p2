@@ -133,7 +133,7 @@ h2 {
   /*border: solid grey 0.6px;*/
 }
 
-.botonera .navdiv-d {
+.botonera .navdiv-c .navdiv-d {
   margin: 0px 6px;
   /*border: solid grey 0.6px;*/
   display: flex;
@@ -629,6 +629,7 @@ h2 {
     font-size: 1.6rem;
     color: white;
 }*/
+
 /*paginas contenido principal*/
 .main-contenedor {
   width: 100%;
