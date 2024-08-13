@@ -1,0 +1,20 @@
+.div-a-micuenta{
+    display: flex;
+    flex-direction: row;
+  }
+  .div-ingreso-a{
+    width: 20%;
+    margin: 4px;
+  }
+.div-ingreso-b{
+  width: 40%;
+  margin: 6px 0px;
+}
+.div-b-cuenta{
+  display: flex;
+  flex-direction: column;
+}
+.div-c-cuenta{
+  display: flex;
+  flex-direction: row;
+}
